@@ -1,5 +1,6 @@
 <script>
 import ApiZoo from '../components/ApiZoo.vue';
+import imageSource from '/assets/barn.jpg';
 
 export default {
   components: {
@@ -11,7 +12,7 @@ export default {
   data: function () {
     return {
       message: 5 + 5,
-      imageSource: '/assets/barn.jpg',
+      imageSource,
     };
   },
 };
